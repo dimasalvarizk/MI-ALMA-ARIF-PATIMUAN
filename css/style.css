@@ -1,0 +1,218 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans', sans-serif ;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight:800px ;
+    float: left;
+    font-family: courier ;
+    color: #F8EDE3;
+}
+
+.motto {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu {
+    float: left;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 1;
+    border-bottom: 1px solid #ede9e9;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #0f0f0f;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #0f0f0f;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-size: 45px;
+    font-weight: 800s;
+    margin-bottom: 20px;
+    color: #0f0f0f;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #f4f2ee;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #131313;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover{
+    background: #EAE7B1;
+    text-decoration: none;
+}
+
+.container img {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+p {
+    margin-top: 10px;
+}
+
+nav {
+    background: #798777;
+}
+
+.deskripsi {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    font-weight: bold;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.kartu-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.kartu-pengajar{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-pengajar img{
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.kartu-ekstra {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar-ekstra {
+    width: 20%;
+    margin: auto;
+}
+
+.gambar-ekstra img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.deskripsi img {
+    width: 50%;
+    margin: 15 px 0px 15px 0px;
+}
+
+#contact {
+    background-color: #dedede;
+    padding: 50px 0px 50px 0px;
+    margin-top: 20px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-weight: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(83, 78, 74);
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
